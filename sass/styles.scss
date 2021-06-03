@@ -1,0 +1,28 @@
+body {
+    font-family: "Montserrat", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1520px;
+    margin: auto;
+}
+
+@import "variables";
+
+@import "header";
+
+@import "main";
+
+@import "content";
+
+@import "promo";
+
+@import "info";
+
+@import "gallery";
+
+@import "contact";
+
+@import "footer";

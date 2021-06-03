@@ -1,0 +1,29 @@
+.content {
+    margin-bottom: 15%;
+
+    &__title {
+        font-size: 48px;
+        line-height: 72px;
+        letter-spacing: -0.015em;
+        color: $black;
+    }
+
+    &__link {
+        color: $lightblue;
+        @extend %border;
+        margin: 6px 3px;
+        padding: 5px 25px;
+
+        &:hover {
+            @extend %hover;
+        }
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .content__wrap {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 100px;
+    }
+}

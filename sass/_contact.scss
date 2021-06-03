@@ -1,0 +1,43 @@
+.contact {
+    background: #F5F5F5;
+}
+.contact__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+.contact-box {
+    max-width: 943px;
+    padding: 10% 0;
+}
+.button {
+    margin-bottom: 5%;
+    
+    &__link {
+        color: $lightblue;
+        @extend %border;
+        margin: 6px 3px;
+        padding: 5px 25px;
+
+        &:hover {
+            @extend %hover;
+        }
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .contact__item {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .button {
+        margin-bottom: 0;   
+    }
+}

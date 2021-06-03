@@ -1,0 +1,30 @@
+.footer {
+    border-top: 1px solid #D5DAE6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__icons {
+        display: flex;
+        flex-direction: row;
+
+        &--avatar {
+            background: url(../design/avatar.svg) center no-repeat;
+            width: 44px;
+            height: 44px;
+            display: block;
+            padding: 0 15px;
+            margin-top: 15%;
+        }
+    }
+    &__text {
+        font-size: 15px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: -0.015em;
+        color: $opacity;
+        margin-top: 10%;
+        margin-bottom: 20%;
+    }
+}

@@ -1,0 +1,38 @@
+$lightblue: #18A0FB;
+
+$black: #000000;
+
+$opacity: rgba(0, 0, 0, 0.8);
+
+%img-fluid {
+    display: block;
+    width: 100%;
+}
+
+%border {
+    background: #FFFFFF;
+    border: 1px solid #18A0FB;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+%hover {
+    background: #18A0FB;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    // display: flex;
+    // align-items: center;
+    // text-align: center;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    transition-duration: .3s;
+}
+
+%centering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

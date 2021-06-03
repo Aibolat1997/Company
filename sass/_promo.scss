@@ -1,0 +1,19 @@
+.promo {
+    @extend %centering;
+}
+
+.box--image {
+    width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+    .promo {
+        display: flex;
+        flex-direction: row;
+
+        &__wrap {
+            padding-left: 84px;
+            max-width: 686px;
+        }
+    }
+}
